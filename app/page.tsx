@@ -44,7 +44,7 @@ export default function Home() {
         <h2 className=" font-semibold text-3xl text-red-600">
           Work Experience
         </h2>
-        <div className=" mt-6 grid grid-cols-3 gap-4">
+        <div className=" mt-6 grid grid-cols-3 max-sm:grid-cols-1 gap-4">
           {work_experience.map((card, index) => (
             <Cards key={index} card={card} />
           ))}
@@ -54,7 +54,7 @@ export default function Home() {
       {/* Projects */}  
       <section className=" container mx-auto h-1/2">
         <h2 className=" font-semibold text-3xl text-red-600">Projects </h2>
-        <div className="mt-6 grid grid-cols-3 gap-4">
+        <div className="mt-6 grid grid-cols-3 max-sm:grid-cols-1 gap-4">
           {projects.map((project, index) => (
             <Cards key={index} card={project} />
           ))}
@@ -64,7 +64,7 @@ export default function Home() {
       {/* Skills */}
       <section className=" container mx-auto h-1/2">
         <h2 className=" font-semibold text-3xl text-red-600">Skills</h2>
-        <div className=" mt-6 grid grid-cols-4">
+        <div className=" mt-6 grid grid-cols-4 max-sm:grid-cols-2">
           {skills.map((skillCategory, index) => (
             <div key={index}>
               {Object.entries(skillCategory).map(([category, skills]) => (
