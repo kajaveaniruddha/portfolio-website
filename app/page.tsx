@@ -60,9 +60,9 @@ export default function Home() {
       </section>
       <Divider my={30} size={5} label="Skills" labelPosition="center" />
       {/* Skills */}
-      <section className="  max-sm:w-[95%] mx-auto  h-1/2">
+      <section className="  max-sm:w-[95%] mx-auto h-1/2 mb-10">
         <h2 className=" font-semibold text-3xl text-red-600">Skills</h2>
-        <div className=" mt-6 grid grid-cols-4 max-sm:grid-cols-2 gap-y-4">
+        <div className=" mt-3 grid grid-cols-4 max-sm:grid-cols-2 gap-y-4">
           {skills.map((skillCategory, index) => (
             <div key={index}>
               {Object.entries(skillCategory).map(([category, skills]) => (
