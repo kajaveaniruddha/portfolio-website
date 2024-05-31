@@ -4,7 +4,7 @@ import "./globals.css";
 import "@mantine/core/styles.css";
 import Navbar from "./components/Navbar";
 import { ColorSchemeScript, MantineProvider } from "@mantine/core";
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
 const inter = Raleway({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -35,6 +35,7 @@ export default function RootLayout({
         <MantineProvider defaultColorScheme="dark">
           <Navbar />
           {children}
+          <SpeedInsights />
         </MantineProvider>
       </body>
     </html>
