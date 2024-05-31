@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     description:
       "Full stack developer with expertise in front-end and back-end development, experience in working with cross-functional teams.",
     images: "",
-    url: "",
+    url: "https://aniruddhakajave.vercel.app/",
     siteName: "Aniruddha Kajave",
   },
 };
