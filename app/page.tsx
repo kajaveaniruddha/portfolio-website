@@ -1,4 +1,5 @@
-import Sphere from "./components/Spehere";
+import dynamic from "next/dynamic";
+const Sphere = dynamic(() => import("./components/Spehere"));
 import { WorkCard, ProjectCard } from "../utils/types";
 import { work_experience, projects, skills } from "@/app/HomePage";
 import ScrollToSkills, { ScrollTop } from "./components/ScrollToSkills";
@@ -110,7 +111,7 @@ export default function Home() {
                 {Object.keys(category)[0]}
               </h3>
               <ul className="list-disc list-inside text-greenDarker">
-                {Object.values(category)[0].map((skill:string, idx:any) => (
+                {Object.values(category)[0].map((skill: string, idx: any) => (
                   <li key={idx} className="text-lg">
                     {skill}
                   </li>
