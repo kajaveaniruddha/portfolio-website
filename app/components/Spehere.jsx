@@ -37,7 +37,7 @@ const Spehere = () => {
             anime({
               targets: spherePathEls[i],
               stroke: {
-                value: ["rgba(255,75,75,1)", "rgba(80,80,80,.35)"],
+                value: ["#DDA15E", "rgba(80,80,80,.35)"],
                 duration: 500,
               },
               translateX: [2, -4],

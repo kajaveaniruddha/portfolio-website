@@ -20,9 +20,9 @@ const TransitionLink = ({ href, tool_tip, icon }: Props) => {
   };
 
   return (
-    <Tooltip label={tool_tip} withArrow transitionProps={{ duration: 200 }}>
+    <Tooltip label={tool_tip} withArrow transitionProps={{ duration: 200 }} offset={20}>
       <button
-        className="text-xl text-neutral-900 transition-all hover:text-[#ffffffcf]"
+        className="text-xl text-lightYellow transition-all hover:text-orange"
         onClick={handleClick}
       >
         {icon}

@@ -19,3 +19,23 @@
     stroke-width: 0.6px;
   }
 }
+.text-shadow {
+  text-shadow: 3px 3px 2px #252525;
+}
+.text-shadow-small {
+  text-shadow: 1px 1px 2px #252525;
+}
+.text-shadow-heading {
+  text-shadow: 4px 4px 5px #b3b3b3;
+}
+
+.custom-shadow-box {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.circle {
+  clip-path: circle(50%);
+}
+
+.circle-right {
+  clip-path: circle(50% at 78% 42%);
+}

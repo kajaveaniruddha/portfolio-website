@@ -32,7 +32,7 @@ export default function RootLayout({
         <ColorSchemeScript />
       </head>
       <body className={inter.className}>
-        <MantineProvider defaultColorScheme="dark">
+        <MantineProvider defaultColorScheme="light">
           <Navbar />
           {children}
           <SpeedInsights />

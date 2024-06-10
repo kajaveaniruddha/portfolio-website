@@ -1,7 +1,6 @@
 export const work_experience = [
   {
     id: 1,
-    icon: "",
     image: "",
     company: "FutureSmart Ai",
     start_date: "January 2024",
@@ -18,7 +17,6 @@ export const work_experience = [
   },
   {
     id: 2,
-    icon: "",
     image: "",
     company: "IIITV-ICD",
     start_date: "January 2024",
@@ -33,7 +31,6 @@ export const work_experience = [
   },
   {
     id: 3,
-    icon: "",
     image: "",
     company: "Zen Finserv",
     start_date: "November 2023",
@@ -53,7 +50,6 @@ export const work_experience = [
 export const projects = [
   {
     id: 1,
-    icon: "IconComponents",
     image: "",
     link: "",
     repositoryLink: "",
@@ -70,7 +66,6 @@ export const projects = [
   },
   {
     id: 2,
-    icon: "IconComponents",
     image: "",
     link: "",
     repositoryLink: "",
@@ -86,7 +81,6 @@ export const projects = [
   },
   {
     id: 3,
-    icon: "IconComponents",
     image: "",
     link: "",
     repositoryLink: "",
