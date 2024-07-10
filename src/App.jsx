@@ -7,6 +7,7 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
+import Testimonials from "./components/Testimonials";
 
 function App() {
   const x = useMotionValue(0);
@@ -43,7 +44,7 @@ function App() {
       <div className="container mx-auto px-8">
         <Navbar />
         <Hero />
-        {/* <About /> */}
+        <Testimonials/>
         <Technologies />
         <Experience />
         <Projects />

@@ -8,6 +8,7 @@ import { motion } from "framer-motion";
 import { FaDocker } from "react-icons/fa";
 import { FaAws } from "react-icons/fa";
 import { FcLinux } from "react-icons/fc";
+import { SiReactquery } from "react-icons/si";
 
 const iconVariants = (duration) => ({
   initial: { y: 7 },
@@ -97,6 +98,14 @@ const Technologies = () => {
         </motion.div>
         <motion.div
           variants={iconVariants(2.4)}
+          animate="animate"
+          initial="initial"
+          className=" rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiReactquery className=" text-7xl text-yellow-400" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(2.2)}
           animate="animate"
           initial="initial"
           className=" rounded-2xl border-4 border-neutral-800 p-4"

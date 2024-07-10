@@ -2,7 +2,7 @@ import React from "react";
 import resume from "../assets/CV_Aniruddha_Kajave.pdf"
 const Resume = () => {
   return (
-    <div className="fixed right-10 bottom-10">
+    <div className="fixed right-10 bottom-10 z-[100]">
       <a href={resume} download>
         <button className="Btn">
           <svg
