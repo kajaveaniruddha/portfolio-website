@@ -8,7 +8,7 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
 import Testimonials from "./components/Testimonials";
-
+import SmoothScroll from "./SmoothScroll";
 function App() {
   const x = useMotionValue(0);
   const y = useMotionValue(0);
@@ -41,16 +41,18 @@ function App() {
           <div className="absolute left-0 right-0 top-[-10%] h-[1000px] w-[1000px] rounded-full bg-[radial-gradient(circle_400px_at_50%_300px,#fbfbfb36,#000)]"></div>
         </div>
       </div>
-      <div className="container mx-auto px-8">
-        <Navbar />
-        <Hero />
-        <Testimonials/>
-        <Technologies />
-        <Experience />
-        <Projects />
-        <Contact />
-        <Resume/>
-      </div>
+        <div className="container mx-auto px-8">
+      <SmoothScroll>
+          <Navbar />
+          <Hero />
+          <Testimonials />
+          <Technologies />
+          <Experience />
+          <Projects />
+          <Contact />
+      </SmoothScroll>
+          <Resume />
+        </div>
       <motion.div
         className="fixed top-0 left-0 md:w-10 aspect-square opacity-20 rounded-full bg-white pointer-events-none"
         style={{ x: springX, y: springY }}
