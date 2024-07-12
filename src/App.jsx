@@ -8,7 +8,6 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
 import Testimonials from "./components/Testimonials";
-import SmoothScroll from "./SmoothScroll";
 function App() {
   const x = useMotionValue(0);
   const y = useMotionValue(0);
@@ -42,7 +41,6 @@ function App() {
         </div>
       </div>
         <div className="container mx-auto px-8">
-      <SmoothScroll>
           <Navbar />
           <Hero />
           <Testimonials />
@@ -50,7 +48,6 @@ function App() {
           <Experience />
           <Projects />
           <Contact />
-      </SmoothScroll>
           <Resume />
         </div>
       <motion.div
