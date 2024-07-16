@@ -42,9 +42,9 @@ const Navbar = () => {
         {/* <a target="_blank" href="https://www.codechef.com/users/aniii1802">
           <SiCodechef className="hover:text-white hover:-translate-y-[1px] transition-all " />
         </a> */}
-        <a target="_blank" href="https://codeforces.com/profile/Aniii_1802">
+        {/* <a target="_blank" href="https://codeforces.com/profile/Aniii_1802">
           <SiCodeforces className="hover:text-red-500 bg-clip-text hover:-translate-y-[1px] transition-all " />
-        </a>
+        </a> */}
       </div>
     </nav>
   );
